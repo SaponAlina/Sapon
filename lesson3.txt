@@ -1,0 +1,7 @@
+часы a = float(input()) h1 = 30 m1 = h1/60 s1 = m1/60 h = (a//h1) % 60 m 
+= (a // m1) % 60 s = (a // s1) % 60 print(h,m,s) проценты P = 
+float(input()) X = float(input()) Y = float(input()) t = X*100+Y p = 
+t+(t*P/100) r = int(p // 100) k = int(p % 100)
+ 
+print(r, k)
+
